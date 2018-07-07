@@ -42,7 +42,7 @@ sudo a2enmod rewrite
 
 sudo service apache2 restart
 
-//install ioncube
+//install ioncube https://www.digitalocean.com/community/tutorials/how-to-install-ioncube-on-ubuntu-16-04
 wget http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz
 
 cd ioncube

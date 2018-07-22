@@ -55,12 +55,9 @@ paste vao
 sudo service apache2 restart
 
 //install xdebug https://xdebug.org/wizard.php
-mo file /etc/php/7.0/cli/php.ini, tao file /etc/php/7.0/apache2/conf.d/00-xdebug.ini
+tao file /etc/php/7.0/apache2/conf.d/00-xdebug.ini
 zend_extension = "/usr/lib/php/20151012/xdebug.so"
 xdebug.remote_enable=true
-xdebug.remote_host=127.0.0.1
-xdebug.remote_port=9000
-xdebug.profiler_enable=1
 
 //switch giua 2 version 7.0 va 7.1
 
